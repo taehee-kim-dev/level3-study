@@ -1,10 +1,10 @@
-package my.level3study.controller;
+package my.level3study.member.controller;
 
 
 import lombok.RequiredArgsConstructor;
-import my.level3study.controller.dto.request.MemberRequest;
-import my.level3study.controller.dto.response.MemberResponse;
-import my.level3study.service.MemberService;
+import my.level3study.member.controller.dto.request.MemberRequest;
+import my.level3study.member.controller.dto.response.MemberResponse;
+import my.level3study.member.service.MemberService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

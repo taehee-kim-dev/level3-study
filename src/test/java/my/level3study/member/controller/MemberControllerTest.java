@@ -1,6 +1,6 @@
-package my.level3study.controller;
+package my.level3study.member.controller;
 
-import my.level3study.service.MemberService;
+import my.level3study.member.service.MemberService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
-package my.level3study.controller.dto.response;
+package my.level3study.member.controller.dto.response;
 
 import lombok.*;
-import my.level3study.domain.Member;
+import my.level3study.member.domain.Member;
 
 @Getter
 @Builder

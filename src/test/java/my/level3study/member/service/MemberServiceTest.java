@@ -1,7 +1,7 @@
-package my.level3study.service;
+package my.level3study.member.service;
 
-import my.level3study.controller.dto.request.MemberRequest;
-import my.level3study.controller.dto.response.MemberResponse;
+import my.level3study.member.controller.dto.request.MemberRequest;
+import my.level3study.member.controller.dto.response.MemberResponse;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

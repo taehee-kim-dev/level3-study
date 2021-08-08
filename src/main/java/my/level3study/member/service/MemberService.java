@@ -1,10 +1,10 @@
-package my.level3study.service;
+package my.level3study.member.service;
 
 import lombok.RequiredArgsConstructor;
-import my.level3study.controller.dto.request.MemberRequest;
-import my.level3study.controller.dto.response.MemberResponse;
-import my.level3study.domain.Member;
-import my.level3study.domain.MemberRepository;
+import my.level3study.member.controller.dto.request.MemberRequest;
+import my.level3study.member.controller.dto.response.MemberResponse;
+import my.level3study.member.domain.Member;
+import my.level3study.member.domain.MemberRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

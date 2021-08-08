@@ -1,4 +1,4 @@
-package my.level3study.domain;
+package my.level3study.member.domain;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
