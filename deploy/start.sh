@@ -24,10 +24,11 @@ echo "> $JAR_LOCATION 실행"
 IDLE_PROFILE=$(find_idle_profile)
 
 echo "> $JAR_LOCATION 를 profile=$IDLE_PROFILE 로 실행합니다."
-if [[ "$1" == prod ]]
+if [[ "$1" == dev ]]
 then
   nohup java -jar \
     -Duser.timezone=Asia/Seoul \
+    -Dspring.config.location=classpath:/application.yml,/home/ubuntu/deploy/application-db.yml \
     -Dspring.profiles.active=$IDLE_PROFILE,"$1"\
     $JAR_LOCATION > ~/nohup.out 2>&1 &
 else
