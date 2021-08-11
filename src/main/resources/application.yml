@@ -1,6 +1,9 @@
+spring:
+  config:
+    import: file:./level3-study-secret/application-db.yml
+
 server:
   shutdown: graceful
-
 ---
 spring:
   config:
